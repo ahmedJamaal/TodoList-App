@@ -1,0 +1,22 @@
+
+<nav class="navbar navbar-findcond navbar-fixed-top">
+    <div class="container">
+		<div class="navbar-header">
+			
+			<a class="navbar-brand" [routerLink]="['/todolist']">TodoList</a>
+		</div>
+		
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="nav navbar-nav navbar-right" routerLinkActive="active">
+				<li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['/todolist']">New Todo</a></li>
+				<li routerLinkActive="active"  *ngIf="!user"><a [routerLink]="['/register']">Register</a></li>
+				<li routerLinkActive="active"   *ngIf="!user"><a [routerLink]="['/login']">Login</a></li>
+				<li routerLinkActive="active" *ngIf="user"><a (click)="logout()">Logout</a></li>
+				<li routerLinkActive="active" *ngIf="user" class="username"><a>{{user.username}}</a></li>
+			
+			</ul>
+			
+		</div>
+	</div>
+</nav>
+<router-outlet></router-outlet>

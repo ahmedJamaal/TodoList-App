@@ -1,0 +1,190 @@
+
+  #page-container {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9B59B6 !important;
+    padding-top: 120px;
+  }
+  .contain {
+    width: 660px;
+    max-width: 660px;
+  }
+  /* iPhone */
+  .iphone-container {
+    top: 20px;
+    width: 180px;
+    height: 350px;
+    float: right;
+    margin: 0 auto;
+    border-radius: 22px;
+    position: relative;
+    background-color: #fff;
+  }
+  .iphone-screen {
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+    background: rgb(55, 55, 55);
+    position: relative;
+    overflow: hidden;
+  
+  }
+  .iphone-screen img {
+    top: 40px;
+    left: 6px;
+    width: 150px;
+    position: relative;
+    color: #8E44AD;
+    background: transparent;
+  }
+  .iphone-header,
+  .iphone-footer {
+    height: 50px;
+    position: relative;
+  }
+  #iphone-top-tab {
+    top: -4px;
+    right: 35px;
+    width: 40px;
+    height: 10px;
+    float: right;
+    border-radius: 7px;
+    position: relative;
+    background-color: #fff;
+  }
+  .iphone-left-tab_L {
+    left: -4px;
+    width: 8px;
+    height: 25px;
+    border-radius: 7px;
+    position: absolute;
+    background-color: #fff;
+  }
+  .iphone-left-tab_S {
+    left: -4px;
+    width: 8px;
+    height: 20px;
+    border-radius: 7px;
+    position: absolute;
+    background-color: #fff;
+  }
+  .tab-one {
+    top: 90px;
+  }
+  .tab-two {
+    top: 125px;
+  }
+  
+  .iphone-head-dot {
+    top: 12px;
+    width: 8px;
+    height: 8px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    background-color: #ccc;
+  }
+  .iphone-head-tab {
+    top: 20px;
+    width: 30px;
+    height: 6px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 20px;
+    background-color: #ccc;
+  }
+  .iphone-footer-ring {
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    border: 2px solid #ccc;
+  }
+  /* Form CSS */
+  .login-form {
+      top: 0px;
+      color: #fff;
+      width: 300px;
+      height: 350px;
+      float: left;
+      padding: 20px;
+      background: #edeff6;
+      border-radius: 15px;
+      font-weight: bold;
+      position: relative;
+      font-family: 'Open Sans', sans-serif;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+  }
+
+  .login-form h1
+  {
+    text-align: center;
+    color: #8E44AD;
+    font-size: 28px;
+  margin-top: 0px;
+  }
+  
+  input,
+  button {
+  
+    border-color: transparent;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+  }
+  input {
+    text-indent: 20px;
+    width: 90%;
+    height: 30px;
+    margin: 15px auto;
+    border-radius: 5px;
+    color: #817676;
+  }
+  .btn-login {
+  
+    color: #fff;
+    background-color: #8E44AD;
+    width: 45%;
+    height: 45px;
+    border-radius: 25px;
+    font-size: 21px;
+    font-weight: bold;
+    text-indent: 0;
+    margin-bottom: 25px;
+  }
+  .btn-login:hover
+  {opacity: 0.85;
+  }
+  
+  
+  
+  input:focus {
+    outline-color: #8E44AD;
+  }
+  .login__signup
+  {
+    color: #8A859C;
+  }
+  .login__signup a
+  {
+    color: #FF3366;
+  }
+  .massage
+  {
+    padding: 2px;
+  color: #817676;
+  font-size: 12px;
+  text-align: center;
+  line-height: 0px;
+  margin-top: 10px;
+
+  padding-bottom: 20px;
+  }
+  

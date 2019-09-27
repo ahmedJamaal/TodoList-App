@@ -1,0 +1,53 @@
+.todo-list{
+	padding-top: 23px;
+    background: #9b59b6;
+    color: #000;
+}
+.jumbotron {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	text-align: center;
+	padding: 30px;
+  background: #EDEFF6;
+  }
+ 
+  form input
+  {
+  
+  margin-right: 10px;
+  width: 90%;
+  }
+  form button
+  {
+    margin: 7px;
+    color: #fff;
+    background: #DB1B73;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  form button:hover
+  {
+     background-color: #92124C;    
+  }
+  .badge-primary {
+	background-color: grey;
+  }
+  
+  span {
+	cursor: pointer;
+  }
+  
+  span:hover {
+	background:red;
+  }
+  .list-group 
+  {
+	padding-top: 10px;
+  }
+  .list-group li
+  {
+	background: #EDEFF6;
+  }
+

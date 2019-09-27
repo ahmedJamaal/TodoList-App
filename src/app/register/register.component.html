@@ -1,0 +1,44 @@
+
+  <section id="page-container">
+    <div class="contain">
+      <div class="iphone-container">
+        <div id="iphone-top-tab"></div>
+        <div class="iphone-header">
+          <div class="iphone-head-dot"></div>
+          <div class="iphone-head-tab"></div>
+        </div>
+    
+        <div class="iphone-left-tab_L"></div>
+        <div class="iphone-left-tab_S tab-one"></div>
+        <div class="iphone-left-tab_S tab-two"></div>
+        <div class="iphone-screen">
+          <img src="././assets/img/logo2.png"/>
+    
+        </div>
+    
+        <div class="iphone-footer">
+          <div class="iphone-footer-ring"></div>
+        </div>
+      </div>
+      <div class="register-form">
+    
+      <form [formGroup]="registerForm">
+          <h1>Register Form</h1>
+        <input  formControlName="name" type="text" placeholder="Full Name"/>
+        <input formControlName="username" type="text" placeholder="Username"/>
+        <input formControlName="password" type="password" placeholder="Password"/>
+        <input formControlName="repassword" type="password" placeholder="Repassword"/>
+        <p class="massage"></p>
+        
+        <button (click)="register()" class="btn btn-register center-block">Register</button>
+    
+        <p class="login__signup">I have an account? &nbsp;
+          <a [routerLink]="['/login']">Login</a></p>
+     
+      </form>
+      
+      </div>
+    
+    </div>
+    </section>
+    
